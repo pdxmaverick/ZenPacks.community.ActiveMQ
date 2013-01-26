@@ -3,7 +3,7 @@
 <!-- ('', 'zport', 'dmd', 'Devices', 'rrdTemplates', 'JavaApp') -->
 <object id='/zport/dmd/Devices/rrdTemplates/JavaApp' module='Products.ZenModel.RRDTemplate' class='RRDTemplate'>
 <property type="string" id="targetPythonClass" mode="w" >
-ZenPacks.community.zenJavaApp.JavaApp
+ZenPacks.community.ActiveMQ.JavaApp
 </property>
 <tomanycont id='datasources'>
 <object id='CMSOldGen' module='ZenPacks.zenoss.ZenJMX.datasources.JMXDataSource' class='JMXDataSource'>

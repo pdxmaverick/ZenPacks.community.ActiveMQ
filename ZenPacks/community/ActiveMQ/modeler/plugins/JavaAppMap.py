@@ -15,7 +15,7 @@ class JavaAppMap(PythonPlugin):
     """Map JMX Client output table to model."""
 
     relname = "javaApps"
-    modname = "ZenPacks.community.zenJavaApp.JavaApp"
+    modname = "ZenPacks.community.ActiveMQ.JavaApp"
 
     deviceProperties = PythonPlugin.deviceProperties + (
                     'zJmxUsername',

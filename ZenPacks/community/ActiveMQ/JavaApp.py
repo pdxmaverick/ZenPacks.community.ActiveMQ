@@ -1,6 +1,6 @@
 ################################################################################
 #
-# This program is part of the zenJavaApplication Zenpack for Zenoss.
+# This program is part of the ActiveMQ Zenpack for Zenoss.
 # This program can be used under the GNU General Public License version 2
 # You can find full information here: http://www.zenoss.com/oss
 #
