@@ -7,7 +7,7 @@ unused(Globals)
 
 from Products.ZenRelations.RelSchema import *
 from Products.ZenModel.Device import Device
-Device._relations += (('javaApps', ToManyCont(ToOne,'ZenPacks.community.ActiveMQ.JavaApp.JavaApp','javaHost')),)
+Device._relations += (('javaApps', ToManyCont(ToOne,'ZenPacks.community.zenJavaApp.JavaApp.JavaApp','javaHost')),)
  
 class ZenPack(ZenPackBase):
     """
